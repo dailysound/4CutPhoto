@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="/main.js"></script>
+    <title>4cut Photo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="img1" class="photo-frame" 
+            onmouseover="hideText(1)" 
+            onmouseout="showText(1)" 
+            onclick="alertText(1)">
+                <span id="desc1" class="photo-description">
+                    Permission To Dance 콘서트 정국이
+                </span>
+            </div>
+            <div id="img2" class="photo-frame"
+            onmouseover="hideText(2)" 
+            onmouseout="showText(2)" 
+            onclick="alertText(2)">
+                <span id="desc2" class="photo-description">
+                    Jack In The Box <br>청음회 간 정국이
+                </span>
+            </div>
+            <div id="img3" class="photo-frame"
+            onmouseover="hideText(3)" 
+            onmouseout="showText(3)" 
+            onclick="alertText(3)">
+                <span id="desc3" class="photo-description">
+                    Euphoria 정국이 :)
+                </span>
+            </div>
+            <div id="img4" class="photo-frame"
+            onmouseover="hideText(4)" 
+            onmouseout="showText(4)" 
+            onclick="alertText(4)">
+                <span id="desc4" class="photo-description">
+                    콘서트에서 하트하는 정국이 ♥
+                </span>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title">Happy Jungkook Time</p>
+            <p class="f-date">2023.02.07</p>
+        </div>
+    </div>
+</body>
+</html>
